@@ -1,3 +1,30 @@
 * {
 	font-family: 'Courier New', Courier, monospace;
 }
+
+:root {
+	--rock-color: #ffd5a4;
+	--paper-color: #a4ffd5;
+	--scissors-color: #d5a4ff;
+}
+
+.lane {
+	display: flex;
+}
+
+.lane-cell {
+	display: inline-block;
+	border: 1px solid black;
+	width: 2rem;
+	height: 2rem;
+}
+
+.rock-lane .lane-cell {
+	background-color: var(--rock-color);
+}
+.paper-lane .lane-cell {
+	background-color: var(--rock-color);
+}
+.scissors-lane .lane-cell {
+	background-color: var(--rock-color);
+}
