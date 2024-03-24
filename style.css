@@ -23,8 +23,8 @@
 	background-color: var(--rock-color);
 }
 .paper-lane .lane-cell {
-	background-color: var(--rock-color);
+	background-color: var(--paper-color);
 }
 .scissors-lane .lane-cell {
-	background-color: var(--rock-color);
+	background-color: var(--scissors-color);
 }
